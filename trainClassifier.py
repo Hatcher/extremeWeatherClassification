@@ -1,7 +1,7 @@
 from keras.layers import Input, Dense, Conv2D, MaxPooling2D, AveragePooling2D, Dropout
-from keras.models impot models
+from keras.models import models
 
-def createGoogLeNet
+def createGoogLeNet():
     # Our shape is 3 for the RGB, 224 for number of pixels in the width, 224 for the number of pixels in the height.
     input = Input(shape=(3, 224, 224) )
     # First convolution layer of googLeNet has a patch size of 7x7 and a stride of 2 pixels.
